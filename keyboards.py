@@ -43,7 +43,7 @@ def categories_keyboard():
 def product_keyboard(product_id):
     keyboard = types.InlineKeyboardMarkup(row_width=2)
     keyboard.add(
-        types.InlineKeyboardButton('🛒 Заказать', url="https://vk.com/al_im.php?sel=-62624676&entrypoint=community_page"),  # Исправлено с url на callback_data
+        types.InlineKeyboardButton('🛒 Заказать', url="https://t.me/babydzhema),  # Исправлено с url на callback_data
         types.InlineKeyboardButton('⬅️ Назад', callback_data='back_to_category')
     )
     return keyboard
